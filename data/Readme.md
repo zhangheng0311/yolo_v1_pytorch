@@ -12,11 +12,11 @@ VOC2012存放的是每一种类型的challenge对应的图像数据。
 
 训练自己的数据集
 ---
-##voc_annotation.py
+## voc_annotation.py
 &emsp; 将各个数据集中的图片路径，标注的bounding boxes位置以及类别id写入训练数据  
 &emsp; 每一行对应其**图片路径**、**bounding boxes位置**以及**类别ID**
 
-##VOC2012/voc_yolo.py
+## VOC2012/voc_yolo.py
 &emsp; 读取Annotations文件夹下的所有文件名，同时去掉.xml写入ImageSets/Main下的train.txt、
 trainval.txt、val.txt、test.txt四个文件中，完成训练集、验证集和测试集的分类（读取JPEGImages文件夹下的所有文件名
 也是可以，但是注意保证所有图片都有对应的标注文件，否则容易出问题。建议选用读取Annotations文件夹下
