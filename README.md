@@ -3,7 +3,7 @@ YOLO:Pytorch实现
 
 **2021年9月7日**
 
-##训练前准备
+## 训练前准备
 1. 将图像数据放在./data/VOC2012/JPEGImages文件夹下
 2. 将标注数据放在./data/VOC2012/Annotations文件夹下
 3. 将只含有类别标签名字的文件放在./data文件夹下
@@ -29,7 +29,7 @@ YOLO:Pytorch实现
     修改DataLoader()函数中batch_size、输入大小、num_workers
 
 
-##参考目录
+## 参考目录
 1. [动手学习深度学习pytorch版——从零开始实现YOLOv1](https://blog.csdn.net/weixin_41424926/article/details/105383064)
 2. [YOLO详解](https://zhuanlan.zhihu.com/p/25236464)
 3. [目标检测（九）--YOLO v1,v2,v3](https://blog.csdn.net/app_12062011/article/details/77554288)
