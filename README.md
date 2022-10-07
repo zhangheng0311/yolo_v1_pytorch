@@ -26,7 +26,7 @@ YOLO:Pytorch实现
     主要是因为训练的迭代次数太少，分类目标的类别太多，以及训练数据集数据量太少。
    
 2. 出现显存不够问题：  
-    修改DataLoader()函数中batch_size、输入大小、num_workers
+    修改DataLoader()函数中batch_size、输入大小
 
 
 ## 参考目录
